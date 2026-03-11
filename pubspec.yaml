@@ -1,0 +1,22 @@
+name: application_test
+description: "Just one website"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+     # or latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.9.0     # or latest version (check pub.dev)
+  webview_flutter_android: ^3.16.0  # helps with Android rendering issues
